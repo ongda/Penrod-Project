@@ -1,0 +1,48 @@
+html, body{
+	background-color: #f3f2f2;
+	font-family: Verdana, Helvetica, Arial;
+	text-align: left;
+	width:100%;
+	height: 100%;
+}
+
+h1{
+	border-bottom: 10px solid #007add;
+	text-align: left;
+}
+
+table.main{
+	margin: 0 auto;
+	color: #fff;
+	padding: 10px;
+}
+
+
+tr.space, th.space{
+	padding-top:25px;
+	padding-bottom: 25px;
+	padding-left:100px;
+	padding-right:100px;
+	background: linear-gradient(to bottom left, #2a739e, #253045);
+	border: 5px groove #253045;
+}
+
+th.right{
+	text-align: right;
+}
+
+p{
+	color: #fff;
+	padding: 0;
+	background-color: pink;
+}
+
+div{
+	text-align: center;
+}
+
+#d1, #d2, #d3, #d4{
+	font-family: Times New Roman, Verdana, Arial;
+	font-size: 16pt;
+	font-style: italic;
+}

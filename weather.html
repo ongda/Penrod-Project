@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel = "stylesheet" type ="text/css" href ="stylesheet.css">
+<script src = "script.js"></script>
+<title> Penrod Weather </title>
+</head>
+
+
+<body>
+
+<h1>Current Weather at the Penrod Offices</h1>
+<input type="button" value="Refresh Page" onClick="window.location.reload()">
+
+<!--Layout of data is displayed in a nest of tables-->
+<table class="main"> <!--Main Outer Table to hold: Milwaukee, Minneapolis, Chicago, Dallas-->
+
+<!--Start Row 1-->
+<tr class = "space">
+
+	<!--R1,C1-->
+	<th class = "space"> 
+	
+		<div>
+			<h2><img id = "pic_1"/>Milwaukee, WI</h1>
+			<span id = "d1"></span>
+		</div>
+		
+		<!--inner table 1: to format data layout of Milwaukee-->
+		<table> 
+			<tr> <!--inner row 1-->
+				<th> Temperature: </th> <!--left col-->
+				<th class="right">      <!--right col-->
+					<span id="temp_1"></span>&degF
+				</th>
+			</tr>
+			<tr> <!--inner row 2-->
+				<th>Humidity:</th>      <!--left col-->
+				<th class="right">      <!--right col-->
+					<span id="humid_1"></span>%
+				</th>
+			</tr>
+			<tr> <!--inner row 3-->
+				<th>Wind:</th>          <!--left col-->
+				<th class="right">      <!--right col-->
+						<span id="wind_1"></span>mph &nbsp
+						<span id="dir_1"></span>
+				</th>
+			</tr>
+		</table><!--End inner table 1-->
+	</th><!--End R1,C1-->
+	
+	<!--R1,C2-->
+	<th class = "space"> 
+	
+		<div>
+			<h2><img id = "pic_2"/>Minneapolis, MN</h2>
+			<span id = "d2"></span>
+		</div>
+		
+		<!--inner table 2: to format data layout of Minneapolis-->
+		<table> 
+			<tr> <!-- inner row 1-->
+				<th>Temperature:</th>   <!--left col-->
+				<th class="right">      <!--right col-->
+					<span id="temp_2"></span>&degF
+				</th>
+			</tr>
+			<tr> <!--inner row 2-->
+				<th>Humidity:</th>      <!--left col-->
+				<th class="right">      <!--right col-->
+					<span id="humid_2"></span>%
+				</th>
+			</tr>
+			<tr> <!--inner row 3-->
+				<th>Wind: </th>         <!--left col-->
+				<th class="right">      <!--right col-->
+					<span id="wind_2"></span>mph &nbsp
+					<span id="dir_2"></span>
+				</th>
+		</table>
+	</th>
+	
+</tr> <!--End Row 1-->
+
+
+<!--Row 2-->
+<tr class = "space">
+
+	<!--R2,C1-->
+	<th class = "space"> 
+		
+		<div>
+			<h2><img id = "pic_3"/>Chicago, IL</h2>
+			<span id = "d3"></span>
+		</div>
+		
+		<table> <!--inner table 3: to format data layout of Chicago-->
+			<tr> <!--inner row 1-->
+				<th>Temperature:</th>    <!--left col-->
+				<th class="right">       <!--right col-->
+					<span id="temp_3"></span>&degF
+				</th>
+			</tr>
+			<tr> <!--inner row 2-->
+				<th>Humidity:</th>       <!--left col-->
+				<th class="right">		 <!--right col-->
+					<span id="humid_3"></span>%
+				</th>
+			</tr>
+			<tr> <!--inner row 3-->
+				<th>Wind:</th>           <!--left col-->
+				<th class="right">       <!--right col-->
+					<span id="wind_3"></span>mph &nbsp
+					<span id="dir_3"></span>
+				</th>	
+			</tr>
+		</table>
+	</th>
+	
+	<!--R2,C2-->
+	<th class = "space"> 
+		<div>
+			<h2><img id = "pic_4"/>Dallas, TX</h2>
+			<span id = "d4"></span>
+		</div>
+		
+		<table> <!--inner table 4: to format data layout of Dallas-->
+			<tr> <!--inner row 1-->
+				<th>Temperature:</th>    <!--left col-->
+				<th class="right">       <!--right col-->
+					<span id="temp_4"></span>&degF
+				</th>
+			</tr>
+			<tr> <!--inner row 2-->
+				<th>Humidity:</th>		<!--left col-->
+				<th class="right">		<!--right col-->
+					<span id="humid_4"></span>%
+				</th>
+			</tr>
+			<tr> <!--inner row 3-->
+				<th>Wind:</th>			<!--left col-->
+				<th class="right">		<!--right col-->
+					<span id="wind_4"></span>mph &nbsp
+					<span id="dir_4"></span>
+				</th>
+			</tr>
+		</table>
+	</th>
+	
+</tr> <!--End Row 2-->
+
+</table> <!--End Main Table-->
+
+</body>
+
+
+
+
+</html>
